@@ -2,18 +2,21 @@
   "users": [
     {
       "id": 1,
-      "name": "Alice Rahman",
-      "email": "alice@example.com"
+      "name": "Shanto Haque",
+      "email": "alice@example.com",
+      "password": "MyPassWord"
     },
     {
       "id": 2,
       "name": "Karim Hossain",
-      "email": "karim@example.com"
+      "email": "karim@example.com",
+      "password": "MyStrongPassWord"
     },
     {
       "id": 3,
-      "name": "Nusrat Jahan",
-      "email": "nusrat@example.com"
+      "name": "Fahad Hai",
+      "email": "fahad@example.com",
+      "password": "MyPassWord123"
     }
   ],
 
