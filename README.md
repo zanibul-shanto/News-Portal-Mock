@@ -1,4 +1,4 @@
-📁 Project Structure (example) <br>
+📁 Project Structure<br>
 /Frontend <br>
   ├── index.html<br>
   ├── styles.css<br>
