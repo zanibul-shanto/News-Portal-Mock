@@ -1,11 +1,11 @@
-📁 Project Structure (example)
-/Frontend
-  ├── index.html
-  ├── styles.css
-  ├── app.js
+📁 Project Structure (example) <br>
+/Frontend <br>
+  ├── index.html<br>
+  ├── styles.css<br>
+  ├── app.js<br>
 
-/Backend
-  └── json.db
+/Backend <br>
+  └── json.db <br>
 
 ----------------------------------------------------------------
 ▶️ Setup & Run
