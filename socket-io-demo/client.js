@@ -1,12 +1,20 @@
-// client.js
-import { io } from "socket.io-client";
+const { io } = require('socket.io-client');
 
-const socket = io("ws://localhost:3000");
+// Connect to Socket.IO server
+const socket = io('ws://localhost:3000');
 
-// receive a message from the server
-socket.on("hello", (arg) => {
-  console.log(arg); // prints "world"
+let it = 0;
+
+socket.on('connect', () => {
+    console.log('Connected to server:', socket.id);
+
+    // Send message to server every 2000ms (2 seconds)
+    setInterval(() => {
+        socket.emit('event_1', `Message ${it}`);
+        it++;
+    }, 2000);
 });
 
-// send a message to the server
-socket.emit("howdy", "stranger");
+socket.on('event_2', (data) => {
+    console.log('Server says:', data);
+});
